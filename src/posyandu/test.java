@@ -6,13 +6,22 @@ package posyandu;
 
 import Pasien.*;
 import CRUD.database;
+import gui.frameUtama;
+import gui.frameIndividu;
 /**
  *
  * @author Hambali
  */
 public class test {
     public static void main(String[] args) {
-        database dbconnect = new database();
+        
+        new frameUtama().setVisible(true);
+       
+        
+        
+        
+        
+        //database dbconnect = new database();
                 // Tabel UJI
         //dbconnect.simpanuji("1", "Hambali", "085151515151", "Handil Bakti");
         //dbconnect.ubahuji("1", "Hambali", "0851", "Keruing");
@@ -43,7 +52,7 @@ public class test {
         //dbconnect.ubahindividu("1", "Muhammad Hambali", "2003-11-29", "ayah", "ibu", "82", "172", "kms", "1");
         //dbconnect.hapusindividu("1");
         //dbconnect.cariindividu("1");
-        dbconnect.dataindividu();
+        //dbconnect.dataindividu();
         
 //        individu individu = new individu(1, "John Doe", "1990-01-02", "Ayah", "Ibu", 75, 170, "KMS123", 101);
 //
